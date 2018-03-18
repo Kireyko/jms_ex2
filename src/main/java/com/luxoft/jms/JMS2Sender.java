@@ -48,7 +48,7 @@ public class JMS2Sender {
                         .setProperty("amount", amount)
                         .setJMSReplyTo(queueResponse)
                         .send(queueRequest, message);
-                logger.info("Message send: {}", message.getText());
+                logger.info("Confirmation message send: {}", message.getText());
 
             }
         }

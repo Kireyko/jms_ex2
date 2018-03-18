@@ -25,7 +25,6 @@ public class JMS2Receiver {
     private int sendStatus;
 
     public  JMS2Receiver(String filter) {
-        //this.SumOnAccount=0;
         threadReceiver(filter);
     }
 
